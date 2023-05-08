@@ -41,7 +41,7 @@ gui
 
 0
 
-There are 2 choices of line 1st: terminal and gui. terminal means you should not show a window.
+**There are 2 choices of line 1st: terminal and gui.** terminal means you should not show a window.
 Instead, you should print the required information in the terminal. gui means you should show a window.
 The number of line 2nd indicates the side length of the square space, all the objects are supposed be in
 the square space. For example, the second line contains 100, then the x and y coordinate of everything in
