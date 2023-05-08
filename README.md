@@ -2,27 +2,44 @@
 final project for DSAA 
 
 input1
+
 terminal
+
 100 
+
 3
+
 0.5 0.5 0 0 0.1 1000000 150 30 10
+
 0.1 0.5 0 0.01 0.03 1 50 50 50
+
 0.8 0.5 0 0.01 0.01 0.1 50 50 50
+
 3
+
 4 2
+
 10 0
+
 14 4
 
 input2
+
 gui
+
 4
+
 3
+
 2.0 3.0 -0.0036712725360877 0.0 0.05 350000.0 50 50 50
+
 1.1339745962155614 1.5 0.00183563626804385 -0.0031794152804680703 0.05 350000.0 50 50 50
+
 2.8660254037844384 1.5 0.00183563626804385 0.0031794152804680703 0.05 350000.0 50 50 50
+
 0
 
-There are 2 choices of line 1st: terminal and gui. terminal means you should not show a window.
+## There are 2 choices of line 1st: terminal and gui. terminal means you should not show a window.
 Instead, you should print the required information in the terminal. gui means you should show a window.
 The number of line 2nd indicates the side length of the square space, all the objects are supposed be in
 the square space. For example, the second line contains 100, then the x and y coordinate of everything in
