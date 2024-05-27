@@ -25,6 +25,7 @@ terminal
 
 14 4
 
+
 input2
 
 gui
@@ -41,14 +42,18 @@ gui
 
 0
 
-**There are 2 choices of line 1st: terminal and gui.** terminal means you should not show a window.
+**There are 2 choices of line 1st: terminal and gui.** 
+
+Terminal means you should not show a window.
 Instead, you should print the required information in the terminal. gui means you should show a window.
 The number of line 2nd indicates the side length of the square space, all the objects are supposed be in
 the square space. For example, the second line contains 100, then the x and y coordinate of everything in
 your space is in [0, 100].
+
 The number of line 3rd num is the number of objects.
 For each of the next num lines, there are 9 numbers represent the initial state of one object. The 9
 numbers are:
+
 • x-coordinate x
 • y-coordinate y
 • initial velocity in the x direction vx
@@ -56,10 +61,13 @@ numbers are:
 • radius of the square radius
 • mass of the square weight
 • color of the square r g b.
+
 The unit of x, y and radius is meter. The unit of vx and vy is meter/second. The unit of weight is
 kilogram.
+
 The objects are indexed. The first object is the 0th and the second object is the 1st,..., the last object is
 num-1.
+
 The number in the next line query indicates the number of querys. For each of the next query lines, there
 are 2 numbers. The first is the time t in seconds and the second is index of the object. You should print a
 line containing the x, y, vx, vy of the object at the time t seconds after the begining of the simulation.
