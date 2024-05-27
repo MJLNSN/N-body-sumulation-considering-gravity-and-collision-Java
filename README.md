@@ -1,7 +1,7 @@
 # N-body-sumulation-considering-gravity-and-collision-Java
 ## Final Project for DSAA 
 
-## Perforn a N Body Simulation
+## Perform a N Body Simulation
 
 input1
 
